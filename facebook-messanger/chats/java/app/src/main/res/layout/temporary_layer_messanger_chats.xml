@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<com.google.android.flexbox.FlexboxLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/temporary_layer_messanger_chats"
+  android:layout_width="match_parent"
+  android:layout_height="wrap_content"
+  android:background="@drawable/drawable_shape"
+  android:clipToPadding="false"
+  app:alignItems="center"
+  app:flexDirection="column"
+  app:justifyContent="flex_start">
+  
+  <com.google.android.flexbox.FlexboxLayout
+    android:layout_width="wrap_content"
+    android:layout_height="108dp"
+    app:layout_alignSelf="stretch"
+    app:layout_flexShrink="0"
+    android:background="@drawable/drawable_shape_2"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:paddingBottom="12dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    app:alignItems="center"
+    app:flexDirection="column"
+    app:justifyContent="flex_end">
+    
+    <com.google.android.flexbox.FlexboxLayout
+      android:layout_width="wrap_content"
+      android:layout_height="18dp"
+      app:layout_alignSelf="stretch"
+      app:layout_flexShrink="0"
+      android:clipChildren="false"
+      android:clipToPadding="false"
+      android:paddingLeft="4.5dp"
+      android:paddingRight="4.5dp"
+      app:alignItems="center"
+      app:flexDirection="row"
+      app:justifyContent="center">
+      
+      <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_alignSelf="stretch"
+        app:layout_flexGrow="1"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        app:alignItems="center"
+        app:flexDirection="row"
+        app:justifyContent="space_between">
+        
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="18dp"
+          app:layout_alignSelf="auto"
+          app:layout_flexShrink="0"
+          android:gravity="center_horizontal|top"
+          android:includeFontPadding="false"
+          android:lineHeight="17.9dp"
+          android:text="9:41"
+          android:textColor="#FF171717"
+          android:textSize="15dp"
+          tools:text="9:41" />
+        
+        <ImageView
+          android:layout_width="66.83dp"
+          android:layout_height="11.17dp"
+          app:layout_flexShrink="0"
+          android:scaleType="centerInside"
+          android:src="@drawable/drawable_image" />
+      </com.google.android.flexbox.FlexboxLayout>
+    </com.google.android.flexbox.FlexboxLayout>
+    
+    <com.google.android.flexbox.FlexboxLayout
+      android:layout_width="wrap_content"
+      android:layout_height="40dp"
+      android:layout_marginTop="24dp"
+      app:layout_alignSelf="stretch"
+      app:layout_flexShrink="0"
+      android:clipChildren="false"
+      android:clipToPadding="false"
+      android:paddingLeft="6dp"
+      android:paddingRight="6dp"
+      app:alignItems="center"
+      app:flexDirection="row"
+      app:justifyContent="center">
+      
+      <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_alignSelf="stretch"
+        app:layout_flexGrow="1"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        app:alignItems="center"
+        app:flexDirection="row"
+        app:justifyContent="flex_start">
+        
+        <com.google.android.flexbox.FlexboxLayout
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          app:layout_alignSelf="stretch"
+          app:layout_flexGrow="1"
+          android:clipChildren="false"
+          android:clipToPadding="false"
+          app:alignItems="center"
+          app:flexDirection="row"
+          app:justifyContent="flex_start">
+          
+          <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            app:layout_flexShrink="0"
+            android:scaleType="centerInside"
+            android:src="@drawable/drawable_image_4" />
+          
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="38dp"
+            android:layout_marginLeft="12dp"
+            app:layout_alignSelf="auto"
+            app:layout_flexGrow="1"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:lineHeight="38dp"
+            android:text="Chats"
+            android:textColor="#FF000000"
+            android:textSize="30dp"
+            tools:text="Chats" />
+        </com.google.android.flexbox.FlexboxLayout>
+        
+        <ImageView
+          android:layout_width="92dp"
+          android:layout_height="40dp"
+          android:layout_marginLeft="10dp"
+          app:layout_alignSelf="stretch"
+          app:layout_flexShrink="0"
+          android:scaleType="centerInside"
+          android:src="@drawable/drawable_image_5" />
+      </com.google.android.flexbox.FlexboxLayout>
+    </com.google.android.flexbox.FlexboxLayout>
+  </com.google.android.flexbox.FlexboxLayout>
+  
+  <FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="48dp"
+    app:layout_alignSelf="stretch"
+    app:layout_flexShrink="0"
+    android:background="@drawable/drawable_shape_6"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+    
+    <ai.codia.x.component.CodiaRoundImageView android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="16dp" android:layout_marginRight="16dp" android:layout_marginTop="4dp" android:layout_marginBottom="8dp" android:background="@drawable/drawable_shape_7" android:scaleType="centerInside" app:radius="10dp"/>
+    <TextView
+      android:layout_width="319dp"
+      android:layout_height="22dp"
+      android:layout_marginLeft="46dp"
+      android:layout_marginTop="10dp"
+      android:layout_marginBottom="16dp"
+      android:layout_gravity="left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:lineHeight="22dp"
+      android:text="Search"
+      android:textColor="#FF8E8E93"
+      android:textSize="17dp"
+      tools:text="Search" />
+    
+    <ImageView
+      android:layout_width="15.5dp"
+      android:layout_height="15.7dp"
+      android:layout_marginLeft="24dp"
+      android:layout_marginBottom="2.35dp"
+      android:layout_gravity="center_vertical|left"
+      android:scaleType="centerInside"
+      android:src="@drawable/drawable_image_8" />
+  </FrameLayout>
+  
+  <ImageView
+    android:layout_width="375dp"
+    android:layout_height="106dp"
+    app:layout_alignSelf="stretch"
+    app:layout_flexShrink="0"
+    android:scaleType="centerInside"
+    android:src="@drawable/drawable_image_9" />
+  
+  <com.google.android.flexbox.FlexboxLayout
+    android:layout_width="wrap_content"
+    android:layout_height="76dp"
+    app:layout_alignSelf="stretch"
+    app:layout_flexShrink="0"
+    android:background="@drawable/drawable_shape_10"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:paddingBottom="8dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="8dp"
+    app:alignItems="center"
+    app:flexDirection="row"
+    app:justifyContent="center">
+    
+    <com.google.android.flexbox.FlexboxLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:layout_alignSelf="stretch"
+      app:layout_flexGrow="1"
+      android:clipChildren="false"
+      android:clipToPadding="false"
+      android:paddingLeft="6dp"
+      android:paddingRight="6dp"
+      app:alignItems="center"
+      app:flexDirection="row"
+      app:justifyContent="center">
+      
+      <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_alignSelf="stretch"
+        app:layout_flexGrow="1"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        app:alignItems="center"
+        app:flexDirection="row"
+        app:justifyContent="flex_start">
+        
+        <ImageView
+          android:layout_width="60dp"
+          android:layout_height="60dp"
+          app:layout_flexShrink="0"
+          android:scaleType="centerInside"
+          android:src="@drawable/drawable_image_11" />
+        
+        <com.google.android.flexbox.FlexboxLayout
+          android:layout_width="wrap_content"
+          android:layout_height="42dp"
+          android:layout_marginLeft="10dp"
+          app:layout_flexGrow="1"
+          android:clipChildren="false"
+          android:clipToPadding="false"
+          android:paddingLeft="1dp"
+          android:paddingRight="1dp"
+          app:alignItems="flex_end"
+          app:flexDirection="column"
+          app:justifyContent="flex_start">
+          
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            app:layout_alignSelf="stretch"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:lineHeight="22dp"
+            android:text="Martin Randolph"
+            android:textColor="#FF000000"
+            android:textSize="17dp"
+            tools:text="Martin Randolph" />
+          
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            app:layout_alignSelf="stretch"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:lineHeight="20dp"
+            android:text="You: What’s man! · 9:40 AM \n"
+            android:textColor="#FF000000"
+            android:textSize="14dp"
+            tools:text="You: What’s man! · 9:40 AM \n" />
+        </com.google.android.flexbox.FlexboxLayout>
+      </com.google.android.flexbox.FlexboxLayout>
+      
+      <ImageView
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginLeft="10dp"
+        app:layout_flexShrink="0"
+        android:scaleType="centerInside"
+        android:src="@drawable/drawable_image_12" />
+    </com.google.android.flexbox.FlexboxLayout>
+  </com.google.android.flexbox.FlexboxLayout>
+  
+  <com.google.android.flexbox.FlexboxLayout
+    android:layout_width="wrap_content"
+    android:layout_height="76dp"
+    app:layout_alignSelf="stretch"
+    app:layout_flexShrink="0"
+    android:background="@drawable/drawable_shape_13"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:paddingBottom="8dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="8dp"
+    app:alignItems="center"
+    app:flexDirection="row"
+    app:justifyContent="center">
+    
+    <com.google.android.flexbox.FlexboxLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:layout_alignSelf="stretch"
+      app:layout_flexGrow="1"
+      android:clipChildren="false"
+      android:clipToPadding="false"
+      android:paddingLeft="6dp"
+      android:paddingRight="6dp"
+      app:alignItems="center"
+      app:flexDirection="row"
+      app:justifyContent="center">
+      
+      <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_alignSelf="stretch"
+        app:layout_flexGrow="1"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        app:alignItems="center"
+        app:flexDirection="row"
+        app:justifyContent="flex_start">
+        
+        <ImageView
+          android:layout_width="60dp"
+          android:layout_height="60dp"
+          app:layout_flexShrink="0"
+          android:scaleType="centerInside"
+          android:src="@drawable/drawable_image_14" />
+        
+        <com.google.android.flexbox.FlexboxLayout
+          android:layout_width="wrap_content"
+          android:layout_height="42dp"
+          android:layout_marginLeft="10dp"
+          app:layout_flexGrow="1"
+          android:clipChildren="false"
+          android:clipToPadding="false"
+          android:paddingLeft="1dp"
+          android:paddingRight="1dp"
+          app:alignItems="flex_end"
+          app:flexDirection="column"
+          app:justifyContent="flex_start">
+          
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            app:layout_alignSelf="stretch"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:lineHeight="22dp"
+            android:text="Andrew Parker"
+            android:textColor="#FF000000"
+            android:textSize="17dp"
+            tools:text="Andrew Parker" />
+          
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            app:layout_alignSelf="stretch"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:lineHeight="20dp"
+            android:text="You: Ok, thanks! · 9:25 AM \n"
+            android:textColor="#FF000000"
+            android:textSize="14dp"
+            tools:text="You: Ok, thanks! · 9:25 AM \n" />
+        </com.google.android.flexbox.FlexboxLayout>
+      </com.google.android.flexbox.FlexboxLayout>
+      
+      <ImageView
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginLeft="10dp"
+        app:layout_flexShrink="0"
+        android:scaleType="centerInside"
+        android:src="@drawable/drawable_image_15" />
+    </com.google.android.flexbox.FlexboxLayout>
+  </com.google.android.flexbox.FlexboxLayout>
+  
+  <com.google.android.flexbox.FlexboxLayout
+    android:layout_width="wrap_content"
+    android:layout_height="76dp"
+    app:layout_alignSelf="stretch"
+    app:layout_flexShrink="0"
+    android:background="@drawable/drawable_shape_16"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:paddingBottom="8dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="8dp"
+    app:alignItems="center"
+    app:flexDirection="row"
+    app:justifyContent="center">
+    
+    <com.google.android.flexbox.FlexboxLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:layout_alignSelf="stretch"
+      app:layout_flexGrow="1"
+      android:clipChildren="false"
+      android:clipToPadding="false"
+      android:paddingLeft="6dp"
+      android:paddingRight="6dp"
+      app:alignItems="center"
+      app:flexDirection="row"
+      app:justifyContent="center">
+      
+      <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_alignSelf="stretch"
+        app:layout_flexGrow="1"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        app:alignItems="center"
+        app:flexDirection="row"
+        app:justifyContent="flex_start">
+        
+        <ImageView
+          android:layout_width="60dp"
+          android:layout_height="60dp"
+          app:layout_flexShrink="0"
+          android:scaleType="centerInside"
+          android:src="@drawable/drawable_image_17" />
+        
+        <com.google.android.flexbox.FlexboxLayout
+          android:layout_width="wrap_content"
+          android:layout_height="42dp"
+          android:layout_marginLeft="10dp"
+          app:layout_flexGrow="1"
+          android:clipChildren="false"
+          android:clipToPadding="false"
+          android:paddingLeft="1dp"
+          android:paddingRight="1dp"
+          app:alignItems="flex_end"
+          app:flexDirection="column"
+          app:justifyContent="flex_start">
+          
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            app:layout_alignSelf="stretch"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:lineHeight="22dp"
+            android:text="Karen Castillo"
+            android:textColor="#FF000000"
+            android:textSize="17dp"
+            tools:text="Karen Castillo" />
+          
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            app:layout_alignSelf="stretch"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:lineHeight="20dp"
+            android:text="You: Ok, See you in To… · Fri\n"
+            android:textColor="#FF000000"
+            android:textSize="14dp"
+            tools:text="You: Ok, See you in To… · Fri\n" />
+        </com.google.android.flexbox.FlexboxLayout>
+      </com.google.android.flexbox.FlexboxLayout>
+      
+      <ImageView
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginLeft="10dp"
+        app:layout_flexShrink="0"
+        android:scaleType="centerInside"
+        android:src="@drawable/drawable_image_18" />
+    </com.google.android.flexbox.FlexboxLayout>
+  </com.google.android.flexbox.FlexboxLayout>
+  
+  <com.google.android.flexbox.FlexboxLayout
+    android:layout_width="wrap_content"
+    android:layout_height="76dp"
+    app:layout_alignSelf="stretch"
+    app:layout_flexShrink="0"
+    android:background="@drawable/drawable_shape_19"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:paddingBottom="8dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="8dp"
+    app:alignItems="center"
+    app:flexDirection="row"
+    app:justifyContent="center">
+    
+    <com.google.android.flexbox.FlexboxLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:layout_alignSelf="stretch"
+      app:layout_flexGrow="1"
+      android:clipChildren="false"
+      android:clipToPadding="false"
+      android:paddingLeft="6dp"
+      android:paddingRight="6dp"
+      app:alignItems="center"
+      app:flexDirection="row"
+      app:justifyContent="center">
+      
+      <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_alignSelf="stretch"
+        app:layout_flexGrow="1"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        app:alignItems="center"
+        app:flexDirection="row"
+        app:justifyContent="flex_start">
+        
+        <ImageView
+          android:layout_width="60dp"
+          android:layout_height="60dp"
+          app:layout_flexShrink="0"
+          android:scaleType="centerInside"
+          android:src="@drawable/drawable_image_20" />
+        
+        <com.google.android.flexbox.FlexboxLayout
+          android:layout_width="wrap_content"
+          android:layout_height="42dp"
+          android:layout_marginLeft="10dp"
+          app:layout_flexGrow="1"
+          android:clipChildren="false"
+          android:clipToPadding="false"
+          android:paddingLeft="1dp"
+          android:paddingRight="1dp"
+          app:alignItems="flex_end"
+          app:flexDirection="column"
+          app:justifyContent="flex_start">
+          
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            app:layout_alignSelf="stretch"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:lineHeight="22dp"
+            android:text="Maisy Humphrey"
+            android:textColor="#FF000000"
+            android:textSize="17dp"
+            tools:text="Maisy Humphrey" />
+          
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="20dp"
+            app:layout_alignSelf="stretch"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:lineHeight="20dp"
+            android:text="Have a good day, Maisy! · Fri \n"
+            android:textColor="#FF000000"
+            android:textSize="14dp"
+            tools:text="Have a good day, Maisy! · Fri \n" />
+        </com.google.android.flexbox.FlexboxLayout>
+      </com.google.android.flexbox.FlexboxLayout>
+      
+      <ImageView
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginLeft="10dp"
+        app:layout_flexShrink="0"
+        android:scaleType="centerInside"
+        android:src="@drawable/drawable_image_21" />
+    </com.google.android.flexbox.FlexboxLayout>
+  </com.google.android.flexbox.FlexboxLayout>
+  
+  <com.google.android.flexbox.FlexboxLayout
+    android:layout_width="wrap_content"
+    android:layout_height="76dp"
+    app:layout_alignSelf="stretch"
+    app:layout_flexShrink="0"
+    android:background="@drawable/drawable_shape_22"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:paddingBottom="8dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="8dp"
+    app:alignItems="center"
+    app:flexDirection="row"
+    app:justifyContent="center">
+    
+    <com.google.android.flexbox.FlexboxLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:layout_alignSelf="stretch"
+      app:layout_flexGrow="1"
+      android:clipChildren="false"
+      android:clipToPadding="false"
+      android:paddingLeft="6dp"
+      android:paddingRight="6dp"
+      app:alignItems="center"
+      app:flexDirection="row"
+      app:justifyContent="center">
+      
+      <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_flexShrink="0"
+        android:scaleType="centerInside"
+        android:src="@drawable/drawable_image_23" />
+      
+      <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="wrap_content"
+        android:layout_height="42dp"
+        android:layout_marginLeft="10dp"
+        app:layout_flexGrow="1"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:paddingLeft="1dp"
+        android:paddingRight="1dp"
+        app:alignItems="flex_end"
+        app:flexDirection="column"
+        app:justifyContent="flex_start">
+        
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="22dp"
+          app:layout_alignSelf="stretch"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:lineHeight="22dp"
+          android:text="Joshua Lawrence"
+          android:textColor="#FF000000"
+          android:textSize="17dp"
+          tools:text="Joshua Lawrence" />
+        
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="20dp"
+          app:layout_alignSelf="stretch"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:lineHeight="20dp"
+          android:text="The business plan loo…  · Thu \n"
+          android:textColor="#FF000000"
+          android:textSize="14dp"
+          tools:text="The business plan loo…  · Thu \n" />
+      </com.google.android.flexbox.FlexboxLayout>
+    </com.google.android.flexbox.FlexboxLayout>
+  </com.google.android.flexbox.FlexboxLayout>
+  
+  <com.google.android.flexbox.FlexboxLayout
+    android:layout_width="wrap_content"
+    android:layout_height="76dp"
+    app:layout_alignSelf="stretch"
+    app:layout_flexShrink="0"
+    android:background="@drawable/drawable_shape_24"
+    android:clipChildren="false"
+    android:clipToPadding="false"
+    android:paddingBottom="8dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="7dp"
+    app:alignItems="center"
+    app:flexDirection="row"
+    app:justifyContent="center">
+    
+    <com.google.android.flexbox.FlexboxLayout
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:layout_alignSelf="stretch"
+      app:layout_flexGrow="1"
+      android:clipChildren="false"
+      android:clipToPadding="false"
+      android:paddingBottom="0.5dp"
+      android:paddingLeft="6dp"
+      android:paddingRight="6dp"
+      android:paddingTop="0.5dp"
+      app:alignItems="center"
+      app:flexDirection="row"
+      app:justifyContent="center">
+      
+      <ImageView
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        app:layout_flexShrink="0"
+        android:scaleType="centerInside"
+        android:src="@drawable/drawable_image_25" />
+      
+      <com.google.android.flexbox.FlexboxLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        app:layout_alignSelf="stretch"
+        app:layout_flexGrow="1"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        android:paddingLeft="1.5dp"
+        android:paddingRight="1.5dp"
+        app:alignItems="center"
+        app:flexDirection="column"
+        app:justifyContent="flex_start">
+        
+        <com.google.android.flexbox.FlexboxLayout
+          android:layout_width="wrap_content"
+          android:layout_height="22dp"
+          app:layout_alignSelf="stretch"
+          app:layout_flexShrink="0"
+          android:clipChildren="false"
+          android:clipToPadding="false"
+          android:paddingLeft="1dp"
+          android:paddingRight="1dp"
+          app:alignItems="center"
+          app:flexDirection="row"
+          app:justifyContent="flex_start">
+          
+          <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="22dp"
+            app:layout_alignSelf="auto"
+            app:layout_flexShrink="0"
+            android:gravity="left|center_vertical"
+            android:includeFontPadding="false"
+            android:lineHeight="22dp"
+            android:text="Pixsellz"
+            android:textColor="#FF000000"
+            android:textSize="17dp"
+            tools:text="Pixsellz" />
+          
+          <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="15dp"
+            android:layout_marginLeft="5dp"
+            app:layout_flexGrow="1"
+            android:clipChildren="false"
+            android:clipToPadding="false">
+            
+            <ai.codia.x.component.CodiaRoundImageView android:layout_width="22dp" android:layout_height="match_parent" android:layout_gravity="left" android:background="@drawable/drawable_shape_26" android:scaleType="centerInside" app:radius="3dp"/>
+            <TextView
+              android:layout_width="wrap_content"
+              android:layout_height="13dp"
+              android:layout_marginLeft="3dp"
+              android:layout_marginTop="1dp"
+              android:layout_marginBottom="1dp"
+              android:gravity="left|top"
+              android:includeFontPadding="false"
+              android:lineHeight="13.13dp"
+              android:text="Ad"
+              android:textColor="#FFFFFFFF"
+              android:textSize="11dp"
+              tools:text="Ad" />
+          </FrameLayout>
+        </com.google.android.flexbox.FlexboxLayout>
+        
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="20dp"
+          android:layout_marginTop="1dp"
+          app:layout_alignSelf="stretch"
+          android:gravity="left|center_vertical"
+          android:includeFontPadding="false"
+          android:lineHeight="20dp"
+          android:text="Make design process easier…"
+          android:textColor="#FF000000"
+          android:textSize="14dp"
+          tools:text="Make design process easier…" />
+        
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="16.41dp"
+          android:layout_marginTop="1dp"
+          android:layout_marginBottom="-0.41dp"
+          app:layout_alignSelf="stretch"
+          android:gravity="left|top"
+          android:includeFontPadding="false"
+          android:lineHeight="16dp"
+          android:text="View More"
+          android:textColor="#FF0084FE"
+          android:textSize="14dp"
+          tools:text="View More" />
+      </com.google.android.flexbox.FlexboxLayout>
+      
+      <ai.codia.x.component.CodiaRoundImageView android:layout_width="60dp" android:layout_height="60dp" android:layout_marginLeft="10dp" app:layout_flexShrink="0" android:scaleType="centerInside" android:src="@drawable/drawable_image_27" app:radius="12dp"/>
+    </com.google.android.flexbox.FlexboxLayout>
+  </com.google.android.flexbox.FlexboxLayout>
+  
+  <FrameLayout
+    android:layout_width="wrap_content"
+    android:layout_height="94dp"
+    app:layout_alignSelf="stretch"
+    app:layout_flexShrink="0"
+    android:clipChildren="false"
+    android:clipToPadding="false">
+    
+    <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginBottom="18dp"
+      android:background="@drawable/drawable_shape_28"
+      android:scaleType="centerInside" />
+    
+    <ImageView
+      android:layout_width="60dp"
+      android:layout_height="60dp"
+      android:layout_marginLeft="16dp"
+      android:layout_marginTop="8dp"
+      android:layout_gravity="top|left"
+      android:scaleType="centerInside"
+      android:src="@drawable/drawable_image_29" />
+    
+    <TextView
+      android:layout_width="288dp"
+      android:layout_height="22dp"
+      android:layout_marginLeft="87dp"
+      android:layout_marginTop="17dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:lineHeight="22dp"
+      android:text="Maximillian Jacobson"
+      android:textColor="#FF000000"
+      android:textSize="17dp"
+      tools:text="Maximillian Jacobson" />
+    
+    <TextView
+      android:layout_width="287dp"
+      android:layout_height="20dp"
+      android:layout_marginLeft="88dp"
+      android:layout_marginTop="39dp"
+      android:layout_gravity="top|left"
+      android:gravity="left|center_vertical"
+      android:includeFontPadding="false"
+      android:lineHeight="20dp"
+      android:text="Messenger UI · Thu"
+      android:textColor="#FF000000"
+      android:textSize="14dp"
+      tools:text="Messenger UI · Thu" />
+    
+    <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:layout_marginTop="8dp"
+      android:background="@drawable/drawable_shape_30"
+      android:scaleType="centerInside" />
+    
+    <ImageView
+      android:layout_width="match_parent"
+      android:layout_height="0.33dp"
+      android:layout_marginTop="8dp"
+      android:layout_gravity="top"
+      android:scaleType="centerInside"
+      android:src="@drawable/drawable_image_31" />
+    
+    <ImageView
+      android:layout_width="80dp"
+      android:layout_height="52dp"
+      android:layout_marginRight="68dp"
+      android:layout_marginTop="8dp"
+      android:layout_gravity="top|right"
+      android:scaleType="centerInside"
+      android:src="@drawable/drawable_image_32" />
+    
+    <FrameLayout
+      android:layout_width="80dp"
+      android:layout_height="52dp"
+      android:layout_marginRight="0.5dp"
+      android:layout_marginTop="8dp"
+      android:layout_gravity="top|center_horizontal"
+      android:background="@drawable/drawable_shape_33"
+      android:clipChildren="false"
+      android:clipToPadding="false">
+      
+      <FrameLayout
+        android:layout_width="38dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="4.5dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="15.92dp"
+        android:layout_gravity="center_horizontal"
+        android:clipChildren="false"
+        android:clipToPadding="false">
+        
+        <ImageView
+          android:layout_width="29.96dp"
+          android:layout_height="22.08dp"
+          android:layout_marginTop="6dp"
+          android:layout_gravity="top|left"
+          android:scaleType="centerInside"
+          android:src="@drawable/drawable_image_34" />
+        
+        <ImageView
+          android:layout_width="16dp"
+          android:layout_height="16dp"
+          android:layout_gravity="top|right"
+          android:scaleType="centerInside"
+          android:src="@drawable/drawable_image_35" />
+        
+        <TextView
+          android:layout_width="wrap_content"
+          android:layout_height="15.23dp"
+          android:layout_marginRight="3dp"
+          android:layout_marginTop="1dp"
+          android:layout_marginBottom="11.85dp"
+          android:layout_gravity="right"
+          android:gravity="left|top"
+          android:includeFontPadding="false"
+          android:lineHeight="13dp"
+          android:text="2"
+          android:textColor="#FF5AD439"
+          android:textSize="13dp"
+          tools:text="2" />
+      </FrameLayout>
+    </FrameLayout>
+    
+    <ImageView
+      android:layout_width="80dp"
+      android:layout_height="52dp"
+      android:layout_marginLeft="67dp"
+      android:layout_marginTop="8dp"
+      android:layout_gravity="top|left"
+      android:scaleType="centerInside"
+      android:src="@drawable/drawable_image_36" />
+    
+    <ai.codia.x.component.CodiaRoundImageView android:layout_width="134dp" android:layout_height="5dp" android:layout_marginLeft="0.5dp" android:layout_marginBottom="9dp" android:layout_gravity="bottom|center_horizontal" android:background="@drawable/drawable_shape_37" android:scaleType="centerInside" app:radius="2.5dp"/>
+  </FrameLayout>
+</com.google.android.flexbox.FlexboxLayout>
