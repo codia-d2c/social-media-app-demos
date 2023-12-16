@@ -1,0 +1,68 @@
+plugins {
+    id 'com.android.application'
+}
+
+android {
+    compileSdk 34
+
+    if (project.android.hasProperty("namespace")) {
+        namespace("ai.codia.x.java.demo")
+    }
+
+    defaultConfig {
+        applicationId "ai.codia.x.java.demo"
+        minSdk 24
+        targetSdk 34
+        versionCode 1
+        versionName "1.0"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    signingConfigs {
+        release {
+            if (System.getenv()["CI"]) {
+                storeFile file(System.getenv()["CM_KEYSTORE_PATH"])
+                storePassword System.getenv()["CM_KEYSTORE_PASSWORD"]
+                keyAlias System.getenv()["CM_KEY_ALIAS"]
+                keyPassword System.getenv()["CM_KEY_PASSWORD"]
+            } else {
+                storeFile file("../../keys/codemagic.keystore")
+                storePassword System.getenv()['CM_KEYSTORE_PASSWORD']
+                keyAlias System.getenv()['CM_KEY_ALIAS_USERNAME']
+                keyPassword System.getenv()['CM_KEY_ALIAS_PASSWORD']
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            // Caution! In production, you need to generate your own keystore file.
+            // see https://reactnative.dev/docs/signed-apk-android.
+            signingConfig signingConfigs.release
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+
+    android.applicationVariants.configureEach { variant ->
+        variant.outputs.configureEach {
+            outputFileName = "CodiaDemoJava.apk"
+        }
+    }
+}
+
+dependencies {
+    implementation 'com.google.android.flexbox:flexbox:3.0.0'
+    implementation 'com.google.android.material:material:1.10.0'
+    implementation 'androidx.cardview:cardview:1.0.0'
+    implementation 'androidx.core:core-ktx:1.12.0'
+    implementation 'androidx.appcompat:appcompat:1.6.1'
+    implementation 'com.google.android.material:material:1.10.0'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.4'
+}
