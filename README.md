@@ -6,17 +6,20 @@ This repository contains multiple social media application demos, such as facebo
 ## messenger  
 ### chats
 
-![chats](./facebook-messenger/chats/facebook_messanger_chats.png)
+<!-- ![chats](./facebook-messenger/chats/facebook_messanger_chats.png)   -->
+<img src="./facebook-messenger/chats/facebook_messanger_chats.png" width='300'>
 
 ### discover
 
-![discover](./facebook-messenger/discover/facebook_messanger_discover.png)
+<!-- ![discover](./facebook-messenger/discover/facebook_messanger_discover.png) -->  
+<img src="./facebook-messenger/discover/facebook_messanger_discover.png" width='300'>
+
 
 ## telegram  
 
 ### calls
-![calls](./telegram/calls/telegram_calls.png)
-
+<!-- ![calls](./telegram/calls/telegram_calls.png =300x300) -->   
+<img src="./telegram/calls/telegram_calls.png" width='300'>
 
 
 ---
