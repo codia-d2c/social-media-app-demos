@@ -15,7 +15,7 @@ This repository contains multiple social media application demos, such as facebo
 ## telegram  
 
 ### calls
-![calls](./telegram/calls/telegram_calls.jpg)
+![calls](./telegram/calls/telegram_calls.png)
 
 
 
