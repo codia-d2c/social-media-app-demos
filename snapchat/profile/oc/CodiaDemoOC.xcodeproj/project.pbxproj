@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		04A949AFB6FB3602FFFEFECA /* ProfileImageBattery.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C2D4B7694911CF6375D5516 /* ProfileImageBattery.m */; };
+		04E644EA9E01F74F5F5DF447 /* ProfileProfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 27ED414FB174B3E7F723E1DD /* ProfileProfile.h */; };
+		0771475F95837A4C3F43FE6D /* ProfileGroup7.m in Sources */ = {isa = PBXBuildFile; fileRef = D9094008822C5799517122CC /* ProfileGroup7.m */; };
+		10A64D64866D6799DD88F617 /* profileUser_2450@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A3434CB3892849408E08AEDE /* profileUser_2450@2x.png */; };
+		12D34040A52D931383A5B9CF /* imageView3_6305@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 05C04F0880C79AD847CB0435 /* imageView3_6305@2x.png */; };
+		1434499A902E160118A2092D /* ProfileImageWifi.m in Sources */ = {isa = PBXBuildFile; fileRef = D3DB4AA49414CF023FE8E1F7 /* ProfileImageWifi.m */; };
+		179C4F11B02B6D171BF8BB9E /* profileVector1_2466@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A4A42808714C2EACD73BD32 /* profileVector1_2466@2x.png */; };
+		196B4C9C8A783CB8FA9406F4 /* profileViewgroup_2725@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7F7741D08C48E9F875122717 /* profileViewgroup_2725@2x.png */; };
+		1C7A4D2D9EC45C30399CC083 /* profileImageEllipse1_2267@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 639242B68795F8EF307EDAC9 /* profileImageEllipse1_2267@2x.png */; };
+		1CAA42259DB1A328EF88B31A /* ProfileGroup8.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F2C47AAA6EBDAD223214D0B /* ProfileGroup8.h */; };
+		21E94E809BDC913D80753ADF /* profileCamera1_2430@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1FD44521BBF5E1AE5B306703 /* profileCamera1_2430@2x.png */; };
+		32A942588891C810944319FE /* profileImageBack3_502562@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2A8A4BB8B6B6A990BC7AB20C /* profileImageBack3_502562@2x.png */; };
+		35F74A589569911509683E45 /* imageView_2259@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A6944E0B932E199E33A97211 /* imageView_2259@2x.png */; };
+		3B8F45DBA5D71AA5422E8C0A /* ProfileImageWifi.h in Headers */ = {isa = PBXBuildFile; fileRef = F21B4F1EA8659D978F934580 /* ProfileImageWifi.h */; };
+		3C334FE8A1B39F9B0135D6A1 /* imageView4_2250@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B8E5414EAE0741932BA178C0 /* imageView4_2250@2x.png */; };
+		40464824B97BB9127CB24CD7 /* ProfileGroup6.m in Sources */ = {isa = PBXBuildFile; fileRef = CBF148A8806FAC1CA5B83924 /* ProfileGroup6.m */; };
+		40C64493BA5BB9B2E1C6D02D /* profileVector2_2479@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 816440F685D6D2BC84792C9A /* profileVector2_2479@2x.png */; };
+		40CF43BE987A2FA66F966B26 /* profileImageBack_502541@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 154946E2AE01AF19969C272D /* profileImageBack_502541@2x.png */; };
+		4EB64B0B92A2706D235E6C0A /* ProfileGroup5.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C0D4286A7B3A1769A79CA3B /* ProfileGroup5.m */; };
+		4F0A4B07ACD3CC0C748D4AA9 /* profileImageMenu1_502534@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B9C64B9E9F65E183CE03CAD7 /* profileImageMenu1_502534@2x.png */; };
+		53544ADFA151D6929E5A0BB9 /* ProfileGroup9.h in Headers */ = {isa = PBXBuildFile; fileRef = 216340DFB9D3D5E0BC0EF59F /* ProfileGroup9.h */; };
+		535A4423965125593137F14F /* profileImageBack2_502555@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 29E24E498D4C73110BDD2500 /* profileImageBack2_502555@2x.png */; };
+		5AEA4E21AAACDA14FBDA670A /* ProfileGroupStackview.h in Headers */ = {isa = PBXBuildFile; fileRef = 074946BC9AA0F2D984D734B8 /* ProfileGroupStackview.h */; };
+		5DEF4FDE9EC95F1685D9631C /* ProfileContainer.h in Headers */ = {isa = PBXBuildFile; fileRef = E40C4DE09A4EC5DA6E8FA8DE /* ProfileContainer.h */; };
+		661D47539CCAE5C4E4980723 /* ProfileImageCameraModel.h in Headers */ = {isa = PBXBuildFile; fileRef = AD2E42958B21F6C0D0D59847 /* ProfileImageCameraModel.h */; };
+		67374D96B7DEA42E45CBECBF /* profileImageEllipse2_2268@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C1F74C92B923218B7583BA93 /* profileImageEllipse2_2268@2x.png */; };
+		684E49C795A45621D0D2F4AB /* ProfileContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4236462E888B9DA8869A8DB1 /* ProfileContainer.m */; };
+		6AC6492E91EDA98A7AA8C060 /* ProfileGroup9.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CC040B589693A48567ED8CB /* ProfileGroup9.m */; };
+		6B47444E8C9B87C1DCCCC007 /* profileVector_2399@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1A8A4C9684BB6C98A2AF0FB1 /* profileVector_2399@2x.png */; };
+		6D49483E9EC52A5C8BA2A6E1 /* profileLine2_2478@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3187409293DAB60ABA9FA5C7 /* profileLine2_2478@2x.png */; };
+		7A684BE0837F7D919CC4CDA9 /* profileImageAdd_2412@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 61834F848ED9353E3898091F /* profileImageAdd_2412@2x.png */; };
+		7DD040E9928EDB5C789ABAE6 /* profileCamera_2421@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = DE96408B86B30E2D8E59B6F7 /* profileCamera_2421@2x.png */; };
+		7ED74A2F971C153218C762A8 /* profileLine1_2472@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 79154EAE9D656924EE7803EC /* profileLine1_2472@2x.png */; };
+		7F4E4B5BB5964C4C7E94956C /* profileGroup2_502591@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 62124F5D873D6647115EAEC5 /* profileGroup2_502591@2x.png */; };
+		82134FE4A47377549C7019B5 /* ProfileGroup4.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C60490B8A9A1F0E13FE22E5 /* ProfileGroup4.m */; };
+		83B848E2BB78CC88AA551792 /* ProfileGroupStackview.m in Sources */ = {isa = PBXBuildFile; fileRef = F0414C6D90864EECE8AD4A84 /* ProfileGroupStackview.m */; };
+		8DD3490E9A14DD8026DBE7E7 /* ProfileImageNetwork.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F6646DDB80E09A1FE26F8ED /* ProfileImageNetwork.m */; };
+		95554C47B08B3E51C9B7D43F /* ProfileProfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 19E5438CB9B4D05D433C55A0 /* ProfileProfile.m */; };
+		98234F00A304216DC6DB125D /* profileImageMenu_502526@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 96A74AFFBD1DBAB108AEEE59 /* profileImageMenu_502526@2x.png */; };
+		982D47CEB3F16C53DDC4C5B0 /* ProfileGroup3.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A44127A34AE8F7C9000F86 /* ProfileGroup3.m */; };
+		A0CA44F5A3A40972BA34AF84 /* imageView1_6303@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C46A4B4EB0450F77DF3AB50E /* imageView1_6303@2x.png */; };
+		A7484955B19C26A8BF53FB48 /* ProfileImageCameraModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B6C4672B2DA5DC704ECE2CF /* ProfileImageCameraModel.m */; };
+		A9B84B0B967B1F4D0741356F /* profileImageFindFriend_2401@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6A954FE98AAC0023242C1901 /* profileImageFindFriend_2401@2x.png */; };
+		B32E1BEF77DDA2336947DB61 /* Pods_CodiaDemoOC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D41EEAE86272EE4808DF751E /* Pods_CodiaDemoOC.framework */; };
+		B6B04D6D97DFF0F241A99502 /* profileScreenImg_502580@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 41AA4AA6A3C4A810938D8529 /* profileScreenImg_502580@2x.png */; };
+		B73242B49E211E6D4AD0DB02 /* imageView2_6304@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6F74420CB712AF096FB21A90 /* imageView2_6304@2x.png */; };
+		C2254575ADB83901E1C0E186 /* profileImageBack1_502548@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AF3943AAA1E1806B3440F70F /* profileImageBack1_502548@2x.png */; };
+		C2424F1E898880D3DA775F7E /* imageView5_2251@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 50A749E683C79B8077E8B8CB /* imageView5_2251@2x.png */; };
+		C6404C2FA51E1E00B4EEEDD2 /* profileGroup1_502592@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5A6A42BC929E2F1478E4B647 /* profileGroup1_502592@2x.png */; };
+		CA094FD2B8BB44076793340B /* ProfileImageBattery.h in Headers */ = {isa = PBXBuildFile; fileRef = C1E54B25AAD2FC0DD44F7398 /* ProfileImageBattery.h */; };
+		CBBA4981BB598807A860F099 /* ProfileImageCamera.h in Headers */ = {isa = PBXBuildFile; fileRef = E80A4933B032A2FF83B9D9F3 /* ProfileImageCamera.h */; };
+		CD4704252AD7EA1E009D4C35 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4704242AD7EA1E009D4C35 /* AppDelegate.m */; };
+		CD4704282AD7EA1E009D4C35 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4704272AD7EA1E009D4C35 /* SceneDelegate.m */; };
+		CD47042B2AD7EA1E009D4C35 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD47042A2AD7EA1E009D4C35 /* ViewController.m */; };
+		CD47042E2AD7EA1E009D4C35 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD47042C2AD7EA1E009D4C35 /* Main.storyboard */; };
+		CD4704302AD7EA1F009D4C35 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD47042F2AD7EA1F009D4C35 /* Assets.xcassets */; };
+		CD4704332AD7EA1F009D4C35 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD4704312AD7EA1F009D4C35 /* LaunchScreen.storyboard */; };
+		CD4704362AD7EA1F009D4C35 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CD4704352AD7EA1F009D4C35 /* main.m */; };
+		CEC74631A5B963DD905F7F39 /* profileAdd_2441@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 76D241C7B3B79D4224955F4C /* profileAdd_2441@2x.png */; };
+		D21144819C7848300A0B2942 /* ProfileImageCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D24B09883B53D121016326 /* ProfileImageCamera.m */; };
+		D5724AF5817AEB3FA887C9C0 /* ProfileGroup5.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E824EABA284DCC99E79DC6F /* ProfileGroup5.h */; };
+		DBE748469A4A807B047B106C /* ProfileGroup4.h in Headers */ = {isa = PBXBuildFile; fileRef = 4D1346FEAB8F31DD72D80D46 /* ProfileGroup4.h */; };
+		EE324F96A737CAA174E122F9 /* ProfileGroup3.h in Headers */ = {isa = PBXBuildFile; fileRef = 250740448129DE1D71C7F53D /* ProfileGroup3.h */; };
+		EFC6474FA12212E2142A3E04 /* ProfileGroup6.h in Headers */ = {isa = PBXBuildFile; fileRef = C20D43389C51D7A5FEC1657A /* ProfileGroup6.h */; };
+		FB0440E991F66C9721C56C4E /* ProfileGroup7.h in Headers */ = {isa = PBXBuildFile; fileRef = 88AD4AC5805D30E1E29884BC /* ProfileGroup7.h */; };
+		FC634013A536B43C3D3E0B72 /* ProfileImageNetwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 77104850A424468A829C23E9 /* ProfileImageNetwork.h */; };
+		FED04E84B95D2F241C9222F5 /* ProfileGroup8.m in Sources */ = {isa = PBXBuildFile; fileRef = 9BB6489395B8D2C32C930CA2 /* ProfileGroup8.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05C04F0880C79AD847CB0435 /* imageView3_6305@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "imageView3_6305@2x.png"; path = "imageView3_6305@2x.png"; sourceTree = "<group>"; };
+		074946BC9AA0F2D984D734B8 /* ProfileGroupStackview.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ProfileGroupStackview.h; path = ProfileGroupStackview.h; sourceTree = "<group>"; };
+		154946E2AE01AF19969C272D /* profileImageBack_502541@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profileImageBack_502541@2x.png"; path = "profileImageBack_502541@2x.png"; sourceTree = "<group>"; };
+		19E5438CB9B4D05D433C55A0 /* ProfileProfile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ProfileProfile.m; path = profileProfile/ProfileProfile.m; sourceTree = "<group>"; };
+		1A8A4C9684BB6C98A2AF0FB1 /* profileVector_2399@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profileVector_2399@2x.png"; path = "profileVector_2399@2x.png"; sourceTree = "<group>"; };
+		1CC040B589693A48567ED8CB /* ProfileGroup9.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ProfileGroup9.m; path = profileProfile/ProfileGroup9.m; sourceTree = "<group>"; };
+		1FD44521BBF5E1AE5B306703 /* profileCamera1_2430@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profileCamera1_2430@2x.png"; path = "profileCamera1_2430@2x.png"; sourceTree = "<group>"; };
+		216340DFB9D3D5E0BC0EF59F /* ProfileGroup9.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ProfileGroup9.h; path = profileProfile/ProfileGroup9.h; sourceTree = "<group>"; };
+		250740448129DE1D71C7F53D /* ProfileGroup3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ProfileGroup3.h; path = profileProfile/ProfileGroup3.h; sourceTree = "<group>"; };
+		27ED414FB174B3E7F723E1DD /* ProfileProfile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ProfileProfile.h; path = profileProfile/ProfileProfile.h; sourceTree = "<group>"; };
+		29E24E498D4C73110BDD2500 /* profileImageBack2_502555@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profileImageBack2_502555@2x.png"; path = "profileImageBack2_502555@2x.png"; sourceTree = "<group>"; };
+		2A4A42808714C2EACD73BD32 /* profileVector1_2466@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profileVector1_2466@2x.png"; path = "profileVector1_2466@2x.png"; sourceTree = "<group>"; };
+		2A8A4BB8B6B6A990BC7AB20C /* profileImageBack3_502562@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profileImageBack3_502562@2x.png"; path = "profileImageBack3_502562@2x.png"; sourceTree = "<group>"; };
+		2C0D4286A7B3A1769A79CA3B /* ProfileGroup5.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ProfileGroup5.m; path = profileProfile/ProfileGroup5.m; sourceTree = "<group>"; };
+		2C60490B8A9A1F0E13FE22E5 /* ProfileGroup4.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ProfileGroup4.m; path = profileProfile/ProfileGroup4.m; sourceTree = "<group>"; };
+		2E824EABA284DCC99E79DC6F /* ProfileGroup5.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ProfileGroup5.h; path = profileProfile/ProfileGroup5.h; sourceTree = "<group>"; };
+		30A44127A34AE8F7C9000F86 /* ProfileGroup3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ProfileGroup3.m; path = profileProfile/ProfileGroup3.m; sourceTree = "<group>"; };
+		3187409293DAB60ABA9FA5C7 /* profileLine2_2478@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profileLine2_2478@2x.png"; path = "profileLine2_2478@2x.png"; sourceTree = "<group>"; };
+		3674D93DBDAEE5EC04B31B99 /* Pods-CodiaDemoOC.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodiaDemoOC.debug.xcconfig"; path = "Target Support Files/Pods-CodiaDemoOC/Pods-CodiaDemoOC.debug.xcconfig"; sourceTree = "<group>"; };
+		41AA4AA6A3C4A810938D8529 /* profileScreenImg_502580@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profileScreenImg_502580@2x.png"; path = "profileScreenImg_502580@2x.png"; sourceTree = "<group>"; };
+		4236462E888B9DA8869A8DB1 /* ProfileContainer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ProfileContainer.m; path = ProfileContainer.m; sourceTree = "<group>"; };
+		42D24B09883B53D121016326 /* ProfileImageCamera.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ProfileImageCamera.m; path = ProfileImageCamera.m; sourceTree = "<group>"; };
+		4D1346FEAB8F31DD72D80D46 /* ProfileGroup4.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ProfileGroup4.h; path = profileProfile/ProfileGroup4.h; sourceTree = "<group>"; };
+		50A749E683C79B8077E8B8CB /* imageView5_2251@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "imageView5_2251@2x.png"; path = "imageView5_2251@2x.png"; sourceTree = "<group>"; };
+		5A6A42BC929E2F1478E4B647 /* profileGroup1_502592@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profileGroup1_502592@2x.png"; path = "profileGroup1_502592@2x.png"; sourceTree = "<group>"; };
+		61834F848ED9353E3898091F /* profileImageAdd_2412@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profileImageAdd_2412@2x.png"; path = "profileImageAdd_2412@2x.png"; sourceTree = "<group>"; };
+		62124F5D873D6647115EAEC5 /* profileGroup2_502591@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profileGroup2_502591@2x.png"; path = "profileGroup2_502591@2x.png"; sourceTree = "<group>"; };
+		639242B68795F8EF307EDAC9 /* profileImageEllipse1_2267@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profileImageEllipse1_2267@2x.png"; path = "profileImageEllipse1_2267@2x.png"; sourceTree = "<group>"; };
+		6A954FE98AAC0023242C1901 /* profileImageFindFriend_2401@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profileImageFindFriend_2401@2x.png"; path = "profileImageFindFriend_2401@2x.png"; sourceTree = "<group>"; };
+		6F6646DDB80E09A1FE26F8ED /* ProfileImageNetwork.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ProfileImageNetwork.m; path = ProfileImageNetwork.m; sourceTree = "<group>"; };
+		6F74420CB712AF096FB21A90 /* imageView2_6304@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "imageView2_6304@2x.png"; path = "imageView2_6304@2x.png"; sourceTree = "<group>"; };
+		76D241C7B3B79D4224955F4C /* profileAdd_2441@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profileAdd_2441@2x.png"; path = "profileAdd_2441@2x.png"; sourceTree = "<group>"; };
+		77104850A424468A829C23E9 /* ProfileImageNetwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ProfileImageNetwork.h; path = ProfileImageNetwork.h; sourceTree = "<group>"; };
+		79154EAE9D656924EE7803EC /* profileLine1_2472@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profileLine1_2472@2x.png"; path = "profileLine1_2472@2x.png"; sourceTree = "<group>"; };
+		7B6C4672B2DA5DC704ECE2CF /* ProfileImageCameraModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ProfileImageCameraModel.m; path = model/ProfileImageCameraModel.m; sourceTree = "<group>"; };
+		7F7741D08C48E9F875122717 /* profileViewgroup_2725@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profileViewgroup_2725@2x.png"; path = "profileViewgroup_2725@2x.png"; sourceTree = "<group>"; };
+		816440F685D6D2BC84792C9A /* profileVector2_2479@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profileVector2_2479@2x.png"; path = "profileVector2_2479@2x.png"; sourceTree = "<group>"; };
+		88AD4AC5805D30E1E29884BC /* ProfileGroup7.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ProfileGroup7.h; path = profileProfile/ProfileGroup7.h; sourceTree = "<group>"; };
+		96A74AFFBD1DBAB108AEEE59 /* profileImageMenu_502526@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profileImageMenu_502526@2x.png"; path = "profileImageMenu_502526@2x.png"; sourceTree = "<group>"; };
+		9A93790212C6FEFA69C4685B /* Pods-CodiaDemoOC.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CodiaDemoOC.release.xcconfig"; path = "Target Support Files/Pods-CodiaDemoOC/Pods-CodiaDemoOC.release.xcconfig"; sourceTree = "<group>"; };
+		9BB6489395B8D2C32C930CA2 /* ProfileGroup8.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ProfileGroup8.m; path = profileProfile/ProfileGroup8.m; sourceTree = "<group>"; };
+		9C2D4B7694911CF6375D5516 /* ProfileImageBattery.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ProfileImageBattery.m; path = ProfileImageBattery.m; sourceTree = "<group>"; };
+		9F2C47AAA6EBDAD223214D0B /* ProfileGroup8.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ProfileGroup8.h; path = profileProfile/ProfileGroup8.h; sourceTree = "<group>"; };
+		A3434CB3892849408E08AEDE /* profileUser_2450@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profileUser_2450@2x.png"; path = "profileUser_2450@2x.png"; sourceTree = "<group>"; };
+		A6944E0B932E199E33A97211 /* imageView_2259@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "imageView_2259@2x.png"; path = "imageView_2259@2x.png"; sourceTree = "<group>"; };
+		AD2E42958B21F6C0D0D59847 /* ProfileImageCameraModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ProfileImageCameraModel.h; path = model/ProfileImageCameraModel.h; sourceTree = "<group>"; };
+		AF3943AAA1E1806B3440F70F /* profileImageBack1_502548@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profileImageBack1_502548@2x.png"; path = "profileImageBack1_502548@2x.png"; sourceTree = "<group>"; };
+		B8E5414EAE0741932BA178C0 /* imageView4_2250@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "imageView4_2250@2x.png"; path = "imageView4_2250@2x.png"; sourceTree = "<group>"; };
+		B9C64B9E9F65E183CE03CAD7 /* profileImageMenu1_502534@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profileImageMenu1_502534@2x.png"; path = "profileImageMenu1_502534@2x.png"; sourceTree = "<group>"; };
+		C1E54B25AAD2FC0DD44F7398 /* ProfileImageBattery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ProfileImageBattery.h; path = ProfileImageBattery.h; sourceTree = "<group>"; };
+		C1F74C92B923218B7583BA93 /* profileImageEllipse2_2268@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profileImageEllipse2_2268@2x.png"; path = "profileImageEllipse2_2268@2x.png"; sourceTree = "<group>"; };
+		C20D43389C51D7A5FEC1657A /* ProfileGroup6.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ProfileGroup6.h; path = profileProfile/ProfileGroup6.h; sourceTree = "<group>"; };
+		C46A4B4EB0450F77DF3AB50E /* imageView1_6303@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "imageView1_6303@2x.png"; path = "imageView1_6303@2x.png"; sourceTree = "<group>"; };
+		CBF148A8806FAC1CA5B83924 /* ProfileGroup6.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ProfileGroup6.m; path = profileProfile/ProfileGroup6.m; sourceTree = "<group>"; };
+		CD4704202AD7EA1E009D4C35 /* CodiaDemoOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CodiaDemoOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD4704232AD7EA1E009D4C35 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CD4704242AD7EA1E009D4C35 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CD4704262AD7EA1E009D4C35 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		CD4704272AD7EA1E009D4C35 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		CD4704292AD7EA1E009D4C35 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CD47042A2AD7EA1E009D4C35 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CD47042D2AD7EA1E009D4C35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD47042F2AD7EA1F009D4C35 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CD4704322AD7EA1F009D4C35 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CD4704342AD7EA1F009D4C35 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD4704352AD7EA1F009D4C35 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3DB4AA49414CF023FE8E1F7 /* ProfileImageWifi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ProfileImageWifi.m; path = ProfileImageWifi.m; sourceTree = "<group>"; };
+		D41EEAE86272EE4808DF751E /* Pods_CodiaDemoOC.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CodiaDemoOC.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9094008822C5799517122CC /* ProfileGroup7.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ProfileGroup7.m; path = profileProfile/ProfileGroup7.m; sourceTree = "<group>"; };
+		DE96408B86B30E2D8E59B6F7 /* profileCamera_2421@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "profileCamera_2421@2x.png"; path = "profileCamera_2421@2x.png"; sourceTree = "<group>"; };
+		E40C4DE09A4EC5DA6E8FA8DE /* ProfileContainer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ProfileContainer.h; path = ProfileContainer.h; sourceTree = "<group>"; };
+		E80A4933B032A2FF83B9D9F3 /* ProfileImageCamera.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ProfileImageCamera.h; path = ProfileImageCamera.h; sourceTree = "<group>"; };
+		F0414C6D90864EECE8AD4A84 /* ProfileGroupStackview.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ProfileGroupStackview.m; path = ProfileGroupStackview.m; sourceTree = "<group>"; };
+		F21B4F1EA8659D978F934580 /* ProfileImageWifi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ProfileImageWifi.h; path = ProfileImageWifi.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD47041D2AD7EA1E009D4C35 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32E1BEF77DDA2336947DB61 /* Pods_CodiaDemoOC.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C15E3CB76AA38BE8D4088AD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3674D93DBDAEE5EC04B31B99 /* Pods-CodiaDemoOC.debug.xcconfig */,
+				9A93790212C6FEFA69C4685B /* Pods-CodiaDemoOC.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		3FBE40AAA0C27E9B296A4B41 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				7B6C4672B2DA5DC704ECE2CF /* ProfileImageCameraModel.m */,
+				AD2E42958B21F6C0D0D59847 /* ProfileImageCameraModel.h */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
+		A59446D196D8A691FD52268B /* profileProfile */ = {
+			isa = PBXGroup;
+			children = (
+				19E5438CB9B4D05D433C55A0 /* ProfileProfile.m */,
+				27ED414FB174B3E7F723E1DD /* ProfileProfile.h */,
+				1CC040B589693A48567ED8CB /* ProfileGroup9.m */,
+				216340DFB9D3D5E0BC0EF59F /* ProfileGroup9.h */,
+				9BB6489395B8D2C32C930CA2 /* ProfileGroup8.m */,
+				9F2C47AAA6EBDAD223214D0B /* ProfileGroup8.h */,
+				D9094008822C5799517122CC /* ProfileGroup7.m */,
+				88AD4AC5805D30E1E29884BC /* ProfileGroup7.h */,
+				CBF148A8806FAC1CA5B83924 /* ProfileGroup6.m */,
+				C20D43389C51D7A5FEC1657A /* ProfileGroup6.h */,
+				2C0D4286A7B3A1769A79CA3B /* ProfileGroup5.m */,
+				2E824EABA284DCC99E79DC6F /* ProfileGroup5.h */,
+				2C60490B8A9A1F0E13FE22E5 /* ProfileGroup4.m */,
+				4D1346FEAB8F31DD72D80D46 /* ProfileGroup4.h */,
+				30A44127A34AE8F7C9000F86 /* ProfileGroup3.m */,
+				250740448129DE1D71C7F53D /* ProfileGroup3.h */,
+			);
+			name = profileProfile;
+			sourceTree = "<group>";
+		};
+		CD4704172AD7EA1E009D4C35 = {
+			isa = PBXGroup;
+			children = (
+				CD4704222AD7EA1E009D4C35 /* CodiaDemoOC */,
+				CD4704212AD7EA1E009D4C35 /* Products */,
+				2C15E3CB76AA38BE8D4088AD /* Pods */,
+				FCC96B362EE2DF2211C84473 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		CD4704212AD7EA1E009D4C35 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD4704202AD7EA1E009D4C35 /* CodiaDemoOC.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD4704222AD7EA1E009D4C35 /* CodiaDemoOC */ = {
+			isa = PBXGroup;
+			children = (
+				CD47043C2AD7EAF3009D4C35 /* src */,
+				CD47043D2AD7EAFA009D4C35 /* images */,
+				CD4704232AD7EA1E009D4C35 /* AppDelegate.h */,
+				CD4704242AD7EA1E009D4C35 /* AppDelegate.m */,
+				CD4704262AD7EA1E009D4C35 /* SceneDelegate.h */,
+				CD4704272AD7EA1E009D4C35 /* SceneDelegate.m */,
+				CD4704292AD7EA1E009D4C35 /* ViewController.h */,
+				CD47042A2AD7EA1E009D4C35 /* ViewController.m */,
+				CD47042C2AD7EA1E009D4C35 /* Main.storyboard */,
+				CD47042F2AD7EA1F009D4C35 /* Assets.xcassets */,
+				CD4704312AD7EA1F009D4C35 /* LaunchScreen.storyboard */,
+				CD4704342AD7EA1F009D4C35 /* Info.plist */,
+				CD4704352AD7EA1F009D4C35 /* main.m */,
+			);
+			path = CodiaDemoOC;
+			sourceTree = "<group>";
+		};
+		CD47043C2AD7EAF3009D4C35 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				4236462E888B9DA8869A8DB1 /* ProfileContainer.m */,
+				E40C4DE09A4EC5DA6E8FA8DE /* ProfileContainer.h */,
+				F0414C6D90864EECE8AD4A84 /* ProfileGroupStackview.m */,
+				074946BC9AA0F2D984D734B8 /* ProfileGroupStackview.h */,
+				9C2D4B7694911CF6375D5516 /* ProfileImageBattery.m */,
+				C1E54B25AAD2FC0DD44F7398 /* ProfileImageBattery.h */,
+				D3DB4AA49414CF023FE8E1F7 /* ProfileImageWifi.m */,
+				F21B4F1EA8659D978F934580 /* ProfileImageWifi.h */,
+				42D24B09883B53D121016326 /* ProfileImageCamera.m */,
+				E80A4933B032A2FF83B9D9F3 /* ProfileImageCamera.h */,
+				6F6646DDB80E09A1FE26F8ED /* ProfileImageNetwork.m */,
+				77104850A424468A829C23E9 /* ProfileImageNetwork.h */,
+				A59446D196D8A691FD52268B /* profileProfile */,
+				3FBE40AAA0C27E9B296A4B41 /* model */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		CD47043D2AD7EAFA009D4C35 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				7F7741D08C48E9F875122717 /* profileViewgroup_2725@2x.png */,
+				41AA4AA6A3C4A810938D8529 /* profileScreenImg_502580@2x.png */,
+				62124F5D873D6647115EAEC5 /* profileGroup2_502591@2x.png */,
+				C1F74C92B923218B7583BA93 /* profileImageEllipse2_2268@2x.png */,
+				639242B68795F8EF307EDAC9 /* profileImageEllipse1_2267@2x.png */,
+				5A6A42BC929E2F1478E4B647 /* profileGroup1_502592@2x.png */,
+				3187409293DAB60ABA9FA5C7 /* profileLine2_2478@2x.png */,
+				2A8A4BB8B6B6A990BC7AB20C /* profileImageBack3_502562@2x.png */,
+				816440F685D6D2BC84792C9A /* profileVector2_2479@2x.png */,
+				79154EAE9D656924EE7803EC /* profileLine1_2472@2x.png */,
+				29E24E498D4C73110BDD2500 /* profileImageBack2_502555@2x.png */,
+				2A4A42808714C2EACD73BD32 /* profileVector1_2466@2x.png */,
+				AF3943AAA1E1806B3440F70F /* profileImageBack1_502548@2x.png */,
+				A3434CB3892849408E08AEDE /* profileUser_2450@2x.png */,
+				154946E2AE01AF19969C272D /* profileImageBack_502541@2x.png */,
+				76D241C7B3B79D4224955F4C /* profileAdd_2441@2x.png */,
+				B9C64B9E9F65E183CE03CAD7 /* profileImageMenu1_502534@2x.png */,
+				1FD44521BBF5E1AE5B306703 /* profileCamera1_2430@2x.png */,
+				96A74AFFBD1DBAB108AEEE59 /* profileImageMenu_502526@2x.png */,
+				DE96408B86B30E2D8E59B6F7 /* profileCamera_2421@2x.png */,
+				61834F848ED9353E3898091F /* profileImageAdd_2412@2x.png */,
+				1A8A4C9684BB6C98A2AF0FB1 /* profileVector_2399@2x.png */,
+				6A954FE98AAC0023242C1901 /* profileImageFindFriend_2401@2x.png */,
+				50A749E683C79B8077E8B8CB /* imageView5_2251@2x.png */,
+				B8E5414EAE0741932BA178C0 /* imageView4_2250@2x.png */,
+				A6944E0B932E199E33A97211 /* imageView_2259@2x.png */,
+				05C04F0880C79AD847CB0435 /* imageView3_6305@2x.png */,
+				6F74420CB712AF096FB21A90 /* imageView2_6304@2x.png */,
+				C46A4B4EB0450F77DF3AB50E /* imageView1_6303@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
+		FCC96B362EE2DF2211C84473 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D41EEAE86272EE4808DF751E /* Pods_CodiaDemoOC.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		330C40078AEDEE86D004DF5A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DEF4FDE9EC95F1685D9631C /* ProfileContainer.h in Headers */,
+				5AEA4E21AAACDA14FBDA670A /* ProfileGroupStackview.h in Headers */,
+				CA094FD2B8BB44076793340B /* ProfileImageBattery.h in Headers */,
+				3B8F45DBA5D71AA5422E8C0A /* ProfileImageWifi.h in Headers */,
+				CBBA4981BB598807A860F099 /* ProfileImageCamera.h in Headers */,
+				FC634013A536B43C3D3E0B72 /* ProfileImageNetwork.h in Headers */,
+				04E644EA9E01F74F5F5DF447 /* ProfileProfile.h in Headers */,
+				53544ADFA151D6929E5A0BB9 /* ProfileGroup9.h in Headers */,
+				1CAA42259DB1A328EF88B31A /* ProfileGroup8.h in Headers */,
+				FB0440E991F66C9721C56C4E /* ProfileGroup7.h in Headers */,
+				EFC6474FA12212E2142A3E04 /* ProfileGroup6.h in Headers */,
+				D5724AF5817AEB3FA887C9C0 /* ProfileGroup5.h in Headers */,
+				DBE748469A4A807B047B106C /* ProfileGroup4.h in Headers */,
+				EE324F96A737CAA174E122F9 /* ProfileGroup3.h in Headers */,
+				661D47539CCAE5C4E4980723 /* ProfileImageCameraModel.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		CD47041F2AD7EA1E009D4C35 /* CodiaDemoOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD4704392AD7EA1F009D4C35 /* Build configuration list for PBXNativeTarget "CodiaDemoOC" */;
+			buildPhases = (
+				37BC7661D9F06045493422D1 /* [CP] Check Pods Manifest.lock */,
+				CD47041C2AD7EA1E009D4C35 /* Sources */,
+				CD47041D2AD7EA1E009D4C35 /* Frameworks */,
+				CD47041E2AD7EA1E009D4C35 /* Resources */,
+				EBA53D2F20C922F558B654B7 /* [CP] Embed Pods Frameworks */,
+				330C40078AEDEE86D004DF5A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CodiaDemoOC;
+			productName = CodiaDemoOC;
+			productReference = CD4704202AD7EA1E009D4C35 /* CodiaDemoOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD4704182AD7EA1E009D4C35 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					CD47041F2AD7EA1E009D4C35 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = CD47041B2AD7EA1E009D4C35 /* Build configuration list for PBXProject "CodiaDemoOC" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD4704172AD7EA1E009D4C35;
+			productRefGroup = CD4704212AD7EA1E009D4C35 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD47041F2AD7EA1E009D4C35 /* CodiaDemoOC */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD47041E2AD7EA1E009D4C35 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD4704332AD7EA1F009D4C35 /* LaunchScreen.storyboard in Resources */,
+				CD4704302AD7EA1F009D4C35 /* Assets.xcassets in Resources */,
+				CD47042E2AD7EA1E009D4C35 /* Main.storyboard in Resources */,
+				196B4C9C8A783CB8FA9406F4 /* profileViewgroup_2725@2x.png in Resources */,
+				B6B04D6D97DFF0F241A99502 /* profileScreenImg_502580@2x.png in Resources */,
+				7F4E4B5BB5964C4C7E94956C /* profileGroup2_502591@2x.png in Resources */,
+				67374D96B7DEA42E45CBECBF /* profileImageEllipse2_2268@2x.png in Resources */,
+				1C7A4D2D9EC45C30399CC083 /* profileImageEllipse1_2267@2x.png in Resources */,
+				C6404C2FA51E1E00B4EEEDD2 /* profileGroup1_502592@2x.png in Resources */,
+				6D49483E9EC52A5C8BA2A6E1 /* profileLine2_2478@2x.png in Resources */,
+				32A942588891C810944319FE /* profileImageBack3_502562@2x.png in Resources */,
+				40C64493BA5BB9B2E1C6D02D /* profileVector2_2479@2x.png in Resources */,
+				7ED74A2F971C153218C762A8 /* profileLine1_2472@2x.png in Resources */,
+				535A4423965125593137F14F /* profileImageBack2_502555@2x.png in Resources */,
+				179C4F11B02B6D171BF8BB9E /* profileVector1_2466@2x.png in Resources */,
+				C2254575ADB83901E1C0E186 /* profileImageBack1_502548@2x.png in Resources */,
+				10A64D64866D6799DD88F617 /* profileUser_2450@2x.png in Resources */,
+				40CF43BE987A2FA66F966B26 /* profileImageBack_502541@2x.png in Resources */,
+				CEC74631A5B963DD905F7F39 /* profileAdd_2441@2x.png in Resources */,
+				4F0A4B07ACD3CC0C748D4AA9 /* profileImageMenu1_502534@2x.png in Resources */,
+				21E94E809BDC913D80753ADF /* profileCamera1_2430@2x.png in Resources */,
+				98234F00A304216DC6DB125D /* profileImageMenu_502526@2x.png in Resources */,
+				7DD040E9928EDB5C789ABAE6 /* profileCamera_2421@2x.png in Resources */,
+				7A684BE0837F7D919CC4CDA9 /* profileImageAdd_2412@2x.png in Resources */,
+				6B47444E8C9B87C1DCCCC007 /* profileVector_2399@2x.png in Resources */,
+				A9B84B0B967B1F4D0741356F /* profileImageFindFriend_2401@2x.png in Resources */,
+				C2424F1E898880D3DA775F7E /* imageView5_2251@2x.png in Resources */,
+				3C334FE8A1B39F9B0135D6A1 /* imageView4_2250@2x.png in Resources */,
+				35F74A589569911509683E45 /* imageView_2259@2x.png in Resources */,
+				12D34040A52D931383A5B9CF /* imageView3_6305@2x.png in Resources */,
+				B73242B49E211E6D4AD0DB02 /* imageView2_6304@2x.png in Resources */,
+				A0CA44F5A3A40972BA34AF84 /* imageView1_6303@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		37BC7661D9F06045493422D1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CodiaDemoOC-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EBA53D2F20C922F558B654B7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodiaDemoOC/Pods-CodiaDemoOC-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CodiaDemoOC/Pods-CodiaDemoOC-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CodiaDemoOC/Pods-CodiaDemoOC-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD47041C2AD7EA1E009D4C35 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD47042B2AD7EA1E009D4C35 /* ViewController.m in Sources */,
+				CD4704252AD7EA1E009D4C35 /* AppDelegate.m in Sources */,
+				CD4704362AD7EA1F009D4C35 /* main.m in Sources */,
+				CD4704282AD7EA1E009D4C35 /* SceneDelegate.m in Sources */,
+				684E49C795A45621D0D2F4AB /* ProfileContainer.m in Sources */,
+				83B848E2BB78CC88AA551792 /* ProfileGroupStackview.m in Sources */,
+				04A949AFB6FB3602FFFEFECA /* ProfileImageBattery.m in Sources */,
+				1434499A902E160118A2092D /* ProfileImageWifi.m in Sources */,
+				D21144819C7848300A0B2942 /* ProfileImageCamera.m in Sources */,
+				8DD3490E9A14DD8026DBE7E7 /* ProfileImageNetwork.m in Sources */,
+				95554C47B08B3E51C9B7D43F /* ProfileProfile.m in Sources */,
+				6AC6492E91EDA98A7AA8C060 /* ProfileGroup9.m in Sources */,
+				FED04E84B95D2F241C9222F5 /* ProfileGroup8.m in Sources */,
+				0771475F95837A4C3F43FE6D /* ProfileGroup7.m in Sources */,
+				40464824B97BB9127CB24CD7 /* ProfileGroup6.m in Sources */,
+				4EB64B0B92A2706D235E6C0A /* ProfileGroup5.m in Sources */,
+				82134FE4A47377549C7019B5 /* ProfileGroup4.m in Sources */,
+				982D47CEB3F16C53DDC4C5B0 /* ProfileGroup3.m in Sources */,
+				A7484955B19C26A8BF53FB48 /* ProfileImageCameraModel.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CD47042C2AD7EA1E009D4C35 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD47042D2AD7EA1E009D4C35 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD4704312AD7EA1F009D4C35 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD4704322AD7EA1F009D4C35 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD4704372AD7EA1F009D4C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD4704382AD7EA1F009D4C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD47043A2AD7EA1F009D4C35 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3674D93DBDAEE5EC04B31B99 /* Pods-CodiaDemoOC.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CodiaDemoOC/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CodiaDemoOC;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.codia.demo.oc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CD47043B2AD7EA1F009D4C35 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A93790212C6FEFA69C4685B /* Pods-CodiaDemoOC.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CodiaDemoOC/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CodiaDemoOC;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIStatusBarHidden = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = ai.codia.demo.oc;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD47041B2AD7EA1E009D4C35 /* Build configuration list for PBXProject "CodiaDemoOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD4704372AD7EA1F009D4C35 /* Debug */,
+				CD4704382AD7EA1F009D4C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD4704392AD7EA1F009D4C35 /* Build configuration list for PBXNativeTarget "CodiaDemoOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD47043A2AD7EA1F009D4C35 /* Debug */,
+				CD47043B2AD7EA1F009D4C35 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD4704182AD7EA1E009D4C35 /* Project object */;
+}
