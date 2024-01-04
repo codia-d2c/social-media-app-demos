@@ -22,6 +22,11 @@ This repository contains multiple social media application demos, such as facebo
 <img src="./telegram/calls/telegram_calls.png" width='300'>
 
 
+## SnapChat
+
+### profile
+<img src="./snapchat/profile/profile.png" width='300'>
+
 ---
 All demo source code is automatically generated using the Figma plugin provided by Codia-AI. If you have more code conversion needs, you can visit [Codia-AI Figma to code](https://www.figma.com/community/plugin/1301565000406306598).
 
